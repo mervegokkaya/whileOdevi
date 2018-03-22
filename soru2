@@ -1,0 +1,9 @@
+stokMiktari=10000
+i=0
+alinanÜrün=100
+satilanÜrün=500
+fark=alinanÜrün-satilanÜrün
+while(stokMiktari>0):
+    stokMiktari=stokMiktari+fark
+    i=i+1
+print(i)
