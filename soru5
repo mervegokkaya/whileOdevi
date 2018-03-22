@@ -1,0 +1,13 @@
+gunlukUretilen=200
+gunlukDefUrun=0
+toplamDefUrun=0
+i=0
+while(gunlukDefUrun<=gunlukUretilen*0.20):
+    gunlukDefUrun=int(input("Günlük Defolu Ürün Miktarı:"))
+    toplamDefUrun=toplamDefUrun+gunlukDefUrun
+    i=i+1
+    if(gunlukDefUrun>gunlukUretilen*0.20):
+       print("Defolu Ürün Sayısı Limiti aştı")
+       break
+    
+    print(i,"Günlük","Defolu Ürün Sayısı:",toplamDefUrun)
